@@ -9,5 +9,7 @@ Amb això veiem la nostra base de dades, amb les dades que acaben d'importar amb
 En aquesta imatge veiem que hem afegit la fila 31 amb les noves dades
 ![img_3.png](img_3.png)
 ara s'ha imprès toda la taula en la consola
-![img.png](img_4.png)
+![img_4.png](img_4.png)
 en aquesta nova línia, imprimim només la persona que demanem
+![img_5.png](img_5.png)
+en aquesta nova línia afegim un [2] en vez del [3] per només veure el seu telèfon
