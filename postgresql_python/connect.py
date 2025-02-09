@@ -10,4 +10,7 @@ def connection_db():
     )
 
     return conn
-print(connection_db())
+connection = connection_db()
+print(connection)
+#connection.close()
+#print(connection)

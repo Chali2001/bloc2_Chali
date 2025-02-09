@@ -9,14 +9,14 @@ def create_tables():
         port = "5432"
     )
     
-    cursosr = conn.cursor()
+    cursor = conn.cursor()
 
     sql_clients = '''
         CREATE TABLE Clientes (
         Nombre_Cliente VARCHAR(100),
         Dirección_Cliente VARCHAR(200),
         Teléfono_Cliente VARCHAR(100),
-        Correo_ELectrónico Cliente VARCHAR(100),
+        Correo_ELectrónico_Cliente VARCHAR(100),
         Fecha_Cumpleaños VARCHAR(50));'''
     
     cursor.execute(sql_clients)
@@ -27,3 +27,5 @@ def create_tables():
     cursor.close()
 
     return {"Tables created succesfully"}
+
+create_tables()
