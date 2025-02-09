@@ -13,3 +13,5 @@ ara s'ha imprès toda la taula en la consola
 en aquesta nova línia, imprimim només la persona que demanem
 ![img_5.png](img_5.png)
 en aquesta nova línia afegim un [2] en vez del [3] per només veure el seu telèfon
+![img_6.png](img_6.png)
+Mostrem les dades que ens demana de les 3 persones. Primer es mostra totes les dades i just a baix, una data específica
